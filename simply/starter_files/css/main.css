@@ -2,46 +2,51 @@ html{
     font-size: 100%;
 }
 body{
-    margin-left: 12.5%;
-    margin-right: 12.5%;
+    width:75%;
+    margin: 0 13.5%;
 }
-.logo{
-    max-width:15rem;
-    height: 2rem;
-    float:left;
-    margin-right: 0.4rem;
-}
-.navigation{
+nav{
     margin-top: 2em;
 }
-.nav-header{
-    font-size: 1.1rem;
+.logo{
+    float:left;
+    margin-top: 0.3rem;
 }
 .nav-header-links{
-    margin-left: 0.4em;
-    margin-top: 0.5em;
-    float: left;
-    
+    list-style-type: none;
+    float:left;
 }
-.nav-header-links a{
-    padding-right: 1rem;
+.nav-header-links li{
+    float: left;
+}
+.nav-header-links li a{
     text-decoration-line: none;
+    font-size: 1.2rem;
+    margin-right: 1rem;
     color: inherit;
 }
-.nav-header-links a:hover{
+.nav-header-links li a:hover{
     color: #645cff;
 }
 .contact-btn{
     float:right;
-    margin-top:0.75em;
-    background-color:#645cff;
+    margin: 1em 0;
+}
+.contact-btn a{
+    text-decoration-line: none;
+    font-size: 1.2rem;
+    background-color: #645cff;
     color: white;
-    padding:0.15rem 1rem;
+    padding: 0.3rem 0.8rem;
     border-radius: 0.2rem;
 }
-.contact-btn:hover{
+.contact-btn a:hover{
     background-color: #3c3799;
 }
-.navbar{
-    margin-bottom: 2em;
+.header-img img{
+    width:100%;
+    max-height:80rem;
+    margin-top: 3.5rem;
+    border-radius: 0.2rem;
+    opacity: 1;
 }
